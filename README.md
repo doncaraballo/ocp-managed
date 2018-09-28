@@ -1,4 +1,4 @@
-# openshift-managed-admin-tools
+# OpenShift Managed Admin Tools
 
 The default behavior of OpenShift enables a self-service model where users are provisioned accounts when they first connect and can administer projects that they create. The goal for a managed-service project is to create a set of tools and documentation to enable an enterprise managed service approach where users and projects are created by a managed  central authority.
 
@@ -29,7 +29,7 @@ oc adm groups add-users test-project-1-users user1
 ```
 Users can also be added or removed from Openshift groups by [synchronizing with an existing LDAP](https://docs.openshift.com/container-platform/3.6/install_config/syncing_groups_with_ldap.html)
 
-## Roles and privileges
+## Roles and Privileges
 
 Before a user can access a project they must be bound to some roles for the project. This can be done by either binding the role the user or to a group the user is a member of. Furthermore this can be done for a specific project or across the entire cluster.
 
