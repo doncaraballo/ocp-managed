@@ -11,7 +11,7 @@ read name
 lowerCase=`echo "$name" | tr '[:upper:]' '[:lower:]'`
 
 # Convert underscore to hyphen and set variable "projectName"
-projectName=`echo "$lowerCase" |tr '_' '-'`
+projectName=`echo "$lowerCase" | tr '_' '-'`
 
 # Set variable devGroup
 devGroup="$projectName-developers"
